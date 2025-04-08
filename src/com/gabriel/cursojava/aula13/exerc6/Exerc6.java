@@ -6,12 +6,12 @@ public class Exerc6 {
 
     public static void main(String[] args) {
     
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o raio do círculo: ");
         double raio = sc.nextDouble();
 
-        double area = 3.1415 * raio * raio;
+        double area = Math.PI * Math.pow(raio, 2);
 
         System.out.println("Área = " + area);
 
@@ -20,3 +20,4 @@ public class Exerc6 {
 }
 
 //6. Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
+//->Corrigido, 95%. ; Acrescentado a lib Math.PI no lugar do valor '3.1415'.

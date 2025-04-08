@@ -6,7 +6,7 @@ public class Exerc9 {
 
     public static void main(String[] args) {
     
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite a temperatura em graus F: ");
         double fahrenheit = sc.nextDouble();
@@ -20,3 +20,4 @@ public class Exerc9 {
 }
 
 //9. Faça um programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+//->Corrigido, 100%.

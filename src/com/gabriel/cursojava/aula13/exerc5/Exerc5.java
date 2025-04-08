@@ -6,7 +6,7 @@ public class Exerc5 {
 
     public static void main(String[] args) {
     
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Qual medida em metros a ser convertida? ");
         double metros = sc.nextDouble();
@@ -17,3 +17,4 @@ public class Exerc5 {
 }
 
 //5. Faça um programa que converta metros para centímetros.
+//->Corrigido, 100%.

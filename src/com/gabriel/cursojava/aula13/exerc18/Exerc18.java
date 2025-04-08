@@ -14,12 +14,12 @@ public class Exerc18 {
         double linkSpeed = sc.nextDouble();
 
         double aproxTime = fileSize / linkSpeed;
-        double secToMin = aproxTime / 60;
 
-        System.out.println("O tempo aproximado para download será: " + secToMin + " minutos");
+        System.out.println("O tempo aproximado para download será: " + aproxTime + " minutos");
 
         sc.close();
     }
 }
 
 //18. Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+//->Corrigido, 95%. ; Interpretação incorreta da questão.

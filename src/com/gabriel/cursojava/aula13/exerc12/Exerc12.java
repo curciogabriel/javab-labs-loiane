@@ -13,10 +13,11 @@ public class Exerc12 {
 
         double pesoIdeal = ((72.7 * altura) - 58);
 
-        System.out.println("Peso ideal: " + pesoIdeal);
+        System.out.println("\nPeso ideal: " + pesoIdeal);
 
         sc.close();
     }
 }
 
 //12. Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte formula: (72.7 * altura) - 58.
+//->Corrigido, 100%.

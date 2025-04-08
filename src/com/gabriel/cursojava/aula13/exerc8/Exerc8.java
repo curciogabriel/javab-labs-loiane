@@ -6,7 +6,7 @@ public class Exerc8 {
 
     public static void main(String[] args) {
     
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o valor que você ganha por hora: ");
         double valorHora = sc.nextDouble();
@@ -20,3 +20,4 @@ public class Exerc8 {
 }
 
 //8. Faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+//->Corrigido, 100%.

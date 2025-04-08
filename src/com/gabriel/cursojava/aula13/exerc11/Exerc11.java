@@ -15,17 +15,13 @@ public class Exerc11 {
         System.out.print("Digite um número real: ");
         double num3 = scan.nextDouble();
 
-        System.out.println("O produto do dobro do primeiro com metade do segundo:");
         int a = ((2 * num1) * (num2 / 2));
-        System.out.println(a);
-
-        System.out.println("A soma do triplo do primeiro com o terceiro:");
         double b = ((3 * num1) + num3);
-        System.out.println(b);
-
-        System.out.println("O terceiro elevado ao cubo:");
         double c = num3 * num3 * num3;
-        System.out.println(c);
+
+        System.out.println("O produto do dobro do primeiro com metade do segundo: " + a);
+        System.out.println("A soma do triplo do primeiro com o terceiro: " + b);
+        System.out.println("O terceiro elevado ao cubo: " + c);
 
         scan.close();
     }
@@ -35,3 +31,5 @@ public class Exerc11 {
 //a) o produto do dobro do primeiro com metade do segundo.
 //b) a soma do triplo do primeiro com o terceiro.
 //c) o terceiro elevado ao cubo.
+
+//->Corrigido, 95%. ; Melhoria de semântica.

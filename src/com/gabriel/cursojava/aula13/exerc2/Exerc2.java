@@ -8,8 +8,8 @@ public class Exerc2 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite um numero: ");
-        double numero = sc.nextDouble();
+        System.out.println("Entre com um numero inteiro: ");
+        int numero = sc.nextInt();
 
         System.out.println("O número informado foi: " + numero);
 
@@ -18,3 +18,4 @@ public class Exerc2 {
 }
 
 //2. Faça um programa que peça um número e então mostre a mensagem O número informado foi [número].
+//->Corrigido, 100%.

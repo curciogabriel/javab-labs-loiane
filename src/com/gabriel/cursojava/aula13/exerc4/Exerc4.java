@@ -6,7 +6,7 @@ public class Exerc4 {
 
     public static void main(String[] args) {
     
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Primeira nota bimestral: ");
         double bim1 = sc.nextDouble();
@@ -20,7 +20,10 @@ public class Exerc4 {
         double media = (bim1 + bim2 + bim3 + bim4) / 4;
 
         System.out.println("Media = " + media);
+
+        sc.close();
     }
 }
 
 //4. Faça um programa que peça as 4 notas bimestrais e mostre a média.
+//->Corrigido, 100%.
