@@ -15,9 +15,7 @@ public class Exer15 {
         System.out.println("Entre com o valor do terceiro lado: ");
         double lado3 = sc.nextDouble();
 
-        boolean triangle = ((lado1 + lado2) > lado3) || ((lado2 + lado3) > lado1) || ((lado1 + lado3) > lado2);
-
-        if (triangle) {
+        if (((lado1 + lado2) > lado3) || ((lado2 + lado3) > lado1) || ((lado1 + lado3) > lado2)) {
             if (lado1 == lado2 && lado2 == lado3) { //conf. equilatero
                 System.out.println("Triângulo EQUILÁTERO.");
             } else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
@@ -39,3 +37,5 @@ public class Exer15 {
 // * Triangulo EQUILATERO: tres lados iguais;
 // * Triangulo ISOSCELES: quaisquer dois lados iguais;
 // * Triangulo ESCALENO: tres lados diferentes.
+
+//Corrigido, 100%

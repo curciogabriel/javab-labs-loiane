@@ -8,9 +8,9 @@ public class Exer01 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Entre com um numero: ");
+        System.out.println("Entre com o primeiro numero: ");
         int num1 = sc.nextInt();
-        System.out.println("Entre com outro numero: ");
+        System.out.println("Entre com o segundo numero: ");
         int num2 = sc.nextInt();
 
         if (num1 > num2) System.out.println(num1 + " maior que " + num2);
@@ -21,3 +21,5 @@ public class Exer01 {
 }
 
 //1. Faça um programa que peça dois numeros e imprima o maior deles.
+
+//100% na correção.

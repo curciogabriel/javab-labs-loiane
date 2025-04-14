@@ -78,3 +78,5 @@ public class Exer26 {
 // * Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustivel (codificado da seguinte forma:
 // A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina
 // é R$2,50 e o preço do litro do álcool é R$1,90.
+
+//Corrigido, 100%

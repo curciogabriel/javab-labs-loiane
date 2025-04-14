@@ -16,18 +16,18 @@ public class Exer07 {
         int num3 = sc.nextInt();
 
         System.out.println("Maior número: ");
-        if (num1 > num2 && num1 > num3)
+        if (num1 >= num2 && num1 >= num3)
             System.out.println(num1);
-        else if (num2 > num1 && num2 > num3)
+        else if (num2 >= num1 && num2 >= num3)
             System.out.println(num2);
         else
             System.out.println(num3);
 
         System.out.println("\n\nMenor número: ");
 
-        if (num1 < num2 && num1 < num3)
+        if (num1 <= num2 && num1 <= num3)
             System.out.println(num1);
-        else if (num2 < num1 && num2 < num3)
+        else if (num2 <= num1 && num2 <= num3)
             System.out.println(num2);
         else
             System.out.println(num3);
@@ -37,3 +37,5 @@ public class Exer07 {
 }
 
 //7. Faça um programa que leia três numeros e mostre o maior e o menor deles.
+
+//Corrigido, 95%

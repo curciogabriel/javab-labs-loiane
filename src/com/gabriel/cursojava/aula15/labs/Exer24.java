@@ -84,3 +84,5 @@ public class Exer24 {
 // -> par ou impar;
 // -> positivo ou negativo;
 // -> inteiro ou decimal.
+
+//Corrigido, 200%, fiz ate mais doq pediu

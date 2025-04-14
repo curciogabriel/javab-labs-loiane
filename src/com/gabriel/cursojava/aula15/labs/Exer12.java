@@ -11,25 +11,25 @@ public class Exer12 {
         System.out.println("Entre com o valor da sua hora: ");
         double valorHora = sc.nextDouble();
         System.out.println("Entre com o valor de horas trabalhadas no mês: ");
-        double horasTrabalhadas = sc.nextDouble();
-        double salarioBruto = valorHora * horasTrabalhadas;
+        double qtdHoras = sc.nextDouble();
+        double salarioBruto = valorHora * qtdHoras;
 
-        double percentualIR = 0;
+        double percentualIR = 0.00;
 
         double valorINSS = salarioBruto * .1;
         double valorFGTS = salarioBruto * .11;
 
         // desconto do IR
         if (salarioBruto <= 900) percentualIR = 0;
-        else if (salarioBruto <= 1500) percentualIR = .05;
-        else if (salarioBruto <= 2500) percentualIR = .1;
+        else if (salarioBruto > 900 && salarioBruto <= 1500) percentualIR = .05;
+        else if (salarioBruto > 1500 && salarioBruto <= 2500) percentualIR = .1;
         else percentualIR = .2;
 
         double valorIR = salarioBruto * percentualIR;
         double totalDescontos = (valorIR + valorINSS);
 
         // imprimindo infos conforme tabela
-        System.out.println("Salário Bruto: (" + valorHora + " * " + horasTrabalhadas + ")\t: R$ " + salarioBruto);
+        System.out.println("Salário Bruto: (" + valorHora + " * " + qtdHoras + ")\t: R$ " + salarioBruto);
         System.out.println("( - ) IR: (" + (percentualIR * 100) + "%)\t\t\t\t: R$ " + (salarioBruto * percentualIR));
         System.out.println("( - ) INSS: (10%)\t\t\t\t: R$ " + valorINSS);
         System.out.println("FGTS (11%)\t\t\t\t\t\t: R$ " + valorFGTS);
@@ -48,3 +48,5 @@ public class Exer12 {
 // -> salario bruto ate 2500,00 (inclusive) - desconto de 10%
 // -> salario bruto acima de 2500 - desconto de 20%.
 // Imprima na tela as informações, dispostas conforme o exemplo abaixo. Nele o valor da hora é 5 e a quantidade é 220.
+
+//Corrigido, 95%

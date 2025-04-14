@@ -19,3 +19,5 @@ public class Exer22 {
 
 //22. Faça um programa que peça um numero inteiro e determine se ele é par ou impar.
 // -> Dica: utilize o operador modulo (resto da divisão)
+
+//Corrigido, 100%

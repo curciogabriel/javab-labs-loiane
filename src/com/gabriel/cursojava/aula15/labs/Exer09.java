@@ -19,21 +19,21 @@ public class Exer09 {
         int meio = 0;
         int maior = 0;
 
-        if (num1 > num2 && num1 > num3)
+        if (num1 >= num2 && num1 >= num3)
             maior = num1;
-        else if (num2 > num1 && num2 > num3)
+        else if (num2 >= num1 && num2 >= num3)
             maior = num2;
         else maior = num3;
 
-        if (num1 < num2 && num1 < num3)
+        if (num1 <= num2 && num1 <= num3)
             menor = num1;
-        else if (num2 < num1 && num2 < num3)
+        else if (num2 <= num1 && num2 <= num3)
             menor = num2;
         else menor = num3;
 
-        if ((num1 < num2 && num1 > num3) || (num1 > num2 && num1 < num3))
+        if ((num1 <= num2 && num1 >= num3) || (num1 >= num2 && num1 <= num3))
             meio = num1;
-        else if ((num2 < num1 && num2 > num3) || (num2 > num1 && num2 < num3))
+        else if ((num2 <= num1 && num2 >= num3) || (num2 >= num1 && num2 <= num3))
             meio = num2;
         else meio = num3;
 
@@ -44,3 +44,5 @@ public class Exer09 {
 }
 
 //9. Faça um programa que leia três numeros e mostre-os em ordem decrescente.
+
+//Corrigido, 95%

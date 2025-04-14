@@ -11,9 +11,9 @@ public class Exer11 {
         System.out.println("Entre com o seu salario: ");
         double salarioAntes = sc.nextDouble();
 
-        double percentualAumento = 0;
-        double valorAumento = 0;
-        double salarioDepois = 0;
+        double percentualAumento = 0.00;
+        double valorAumento = 0.00;
+        double salarioDepois = 0.00;
 
         if (salarioAntes <= 280) {
             percentualAumento = .2;
@@ -27,7 +27,7 @@ public class Exer11 {
             percentualAumento = .1;
             valorAumento = salarioAntes * percentualAumento;
             salarioDepois = salarioAntes + valorAumento;
-        } else { // >= 1500
+        } else if (salarioAntes >= 1500){ // >= 1500
             percentualAumento = .05;
             valorAumento = salarioAntes * percentualAumento;
             salarioDepois = salarioAntes + valorAumento;
@@ -54,3 +54,5 @@ public class Exer11 {
 // * o percentual de aumento aplicado;
 // * o valor do aumento;
 // * o novo salario, após o aumento.
+
+//Corrigido, 100%

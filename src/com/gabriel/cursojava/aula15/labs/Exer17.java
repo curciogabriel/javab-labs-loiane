@@ -26,6 +26,7 @@ public class Exer17 {
 //17. Faça um programa que peça um numero correspondente a um determinado ano e em seguida informe se este ano é ou não
 // bissexto.
 
-
 // o ano tem q ser divisivel por 4 - check
 // se for divisivel por 4, nao pode ser divisivel por 100
+
+//Corrigido, 100%, logica diferente da professora mas rodou tao bem quanto

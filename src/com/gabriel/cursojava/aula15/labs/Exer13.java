@@ -28,3 +28,5 @@ public class Exer13 {
 
 //13. Faça um programa que leia um numero e exiba o dia correspondente da semana. (1-Domingo, 2-Segunda, etc.), se digitar
 // outro valor deve aparecer "Valor Inválido".
+
+//Corrigido, 100%

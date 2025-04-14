@@ -16,9 +16,9 @@ public class Exer08 {
         double preco3 = sc.nextDouble();
 
         System.out.println("Melhor preço:");
-        if (preco1 < preco2 && preco1 < preco3)
+        if (preco1 <= preco2 && preco1 <= preco3)
             System.out.println(preco1);
-        else if (preco2 < preco1 && preco2 < preco3)
+        else if (preco2 <= preco1 && preco2 <= preco3)
             System.out.println(preco2);
         else
             System.out.println(preco3);
@@ -29,3 +29,5 @@ public class Exer08 {
 
 //8. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a
 // decisão é sempre pelo mais barato.
+
+//Corrigido, 95%

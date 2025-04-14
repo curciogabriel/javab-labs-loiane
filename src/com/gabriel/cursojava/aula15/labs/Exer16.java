@@ -23,6 +23,8 @@ public class Exer16 {
             double raiz1 = ((valorB * (-1) + (Math.sqrt(delta))) / (2 * valorA));
             double raiz2 = ((valorB * (-1) - (Math.sqrt(delta))) / (2 * valorA));
 
+            System.out.println("Delta: " + delta);
+
             if (delta > 0) {
                 System.out.println("Valor da primeira raiz: " + raiz1);
                 System.out.println("Valor da segunda raiz: " + raiz2);
@@ -45,3 +47,5 @@ public class Exer16 {
 // b) Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa.
 // c) Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
 // d) Se o delta for positivo, a equação possui duas raízes reais; informe-as ao usuário;
+
+//Corrigido, 200% mlke, amassou na logica

@@ -9,24 +9,28 @@ public class Exer27 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Entre com a quantidade de morangos (em kg): ");
-        double morango = sc.nextDouble();
+        double qtdMorango = sc.nextDouble();
         System.out.println("Entre com a quantidade de maçãs (em kg): ");
-        double maca = sc.nextDouble();
+        double qtdMaca = sc.nextDouble();
         sc.close();
 
         double valorMorango = 0;
         double valorMaca = 0;
 
-        if (morango <= 5) valorMorango = morango * 2.5;
-        else valorMorango = morango * 2.2; // 13.2
+        if (qtdMorango <= 5) valorMorango = 2.5;
+        else valorMorango = 2.2;
 
-        if (maca <= 5) valorMaca = maca * 1.8; // 7.2
-        else valorMaca = maca * 1.5;
+        if (qtdMaca <= 5) valorMaca = 1.8;
+        else valorMaca = 1.5;
 
-        double valorTotal = valorMorango + valorMaca;
+        double valorTotalMorango = qtdMorango * valorMorango;
+        double valorTotalMaca = qtdMaca * valorMaca;
 
-        if((maca + morango > 8) || (valorTotal > 25)) {
-            valorTotal -= (valorTotal * .1);
+        double valorParcial = valorMorango + valorMaca;
+        double valorTotal = valorParcial;
+
+        if ((qtdMaca + qtdMorango > 8) || (valorParcial > 25)) {
+            valorTotal = valorParcial - (valorParcial / 10);
             System.out.println("Valor a ser pago: R$ " + valorTotal);
         } else System.out.println("Valor a ser pago: R$ " + valorTotal);
     }
@@ -42,3 +46,5 @@ public class Exer27 {
 // * Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um
 // desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade
 // (em Kg) de maçãs adquiridas e escreva o valor a ser pago pelo cliente.
+
+//Corrigido, 50%
